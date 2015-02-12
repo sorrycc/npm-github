@@ -17,7 +17,7 @@ console.info('request:', url);
 
 request(url, function(e, res, body) {
   var json = JSON.parse(body);
-  var repo = json.repository.url;
+  var repo = json.repository && json.repository.url || json.homepage;
   console.info('repo found:', repo);
   open(repo);
 });
