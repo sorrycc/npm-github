@@ -1,0 +1,16 @@
+{
+  "name": "npm-github",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "chencheng <sorrycc@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "npm-github": "cli.js"
+  },
+  "dependencies": {
+    "open": "0.0.5",
+    "request": "~2.53.0"
+  }
+}
