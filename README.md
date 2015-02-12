@@ -2,6 +2,10 @@
 
 Open url in browser by npm pkg name.
 
+[![NPM version](https://badge.fury.io/js/npm-github.png)](http://badge.fury.io/js/npm-github)
+
+---
+
 ## Install
 
 ```bash
