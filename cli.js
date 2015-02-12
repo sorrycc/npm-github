@@ -18,6 +18,7 @@ console.info('request:', url);
 request(url, function(e, res, body) {
   var json = JSON.parse(body);
   var repo = json.repository && json.repository.url || json.homepage;
+  repo = repo.replace('git@github.com:', 'https://github.com/');
   console.info('repo found:', repo);
   open(repo);
 });
